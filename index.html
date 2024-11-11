@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atalhos Lojas Adelino - Suporte</title>
+  <link rel="icon" href="logo.ico" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+    rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #818181;
+    }
+
+    .wave-top {
+      position: relative;
+      width: 100%;
+      height: 150px;
+      margin-bottom: -7px;
+    }
+
+    .wave-top svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .container {
+      background-color: #f5f5f5;
+      border-radius: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 18px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+
+    .card-header {
+      background-color: #333;
+      color: white;
+      font-weight: bold;
+      border-radius: 18px 18px 0 0;
+      padding: 15px;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .icon {
+      font-size: 28px;
+      margin-bottom: 5px;
+      color: black;
+    }
+
+    .fa-trello {
+      font-size: 35px;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+
+    .glyphicon {
+      font-size: 35px;
+      margin-bottom: 5px;
+      margin-top: 12px;
+    }
+
+    .send {
+      font-size: 35px;
+      margin-bottom: 5px;
+      margin-top: 12px;
+    }
+
+    .icon-text {
+      font-size: 18px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .icon-text:hover {
+      text-decoration: none;
+      color: #757575;
+    }
+
+    .card-body div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .card-body-img {
+      display: flex;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex: 1;
+      min-width: 150px;
+    }
+
+    h3,
+    p {
+      color: #333;
+      text-align: center;
+    }
+
+    .containerMargin {
+      margin: 2%;
+    }
+
+    .text-center {
+      margin-bottom: 30px;
+    }
+
+    .content {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .content-images {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image img {
+      max-width: 95%;
+      border: 1px solid darkgrey;
+      border-radius: 10px;
+    }
+
+    .custom-icon {
+      display: block;
+      font-size: 32px;
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .icon-fas {
+      margin-top: 20px;
+    }
+
+    .icon-text i {
+      font-size: 35px;
+      display: block;
+    }
+
+    .icon-text {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .icon-text span {
+      font-size: 20px;
+    }
+
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+      }
+
+      .image img {
+        max-width: 100%;
+
+        border: 1px solid darkgrey;
+        border-radius: 10px;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      .content-images {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="containerMargin mt-5">
+    <div class="text-center">
+      <h2>OLÁ, PATO🦆!</h2>
+      <h4>Você sabe a diferença entre a galinha e você ?</h4>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Monitoramento</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/fdijdd24r785cc/adelinopostgres?orgId=1&refresh=30s"
+              target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Adelino Postgres - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/edkwcogljhvcwf/base-de-teste?orgId=1" target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Base de Teste - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/bdhjrpzej8ge8e/cursores?orgId=1&refresh=30s"
+              target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Cursores - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/dashboards" target="_blank">
+              <i class="material-icons icon" style="font-size:36px">dashboard</i>
+              <span style="display: block;">dashboard - Grafana</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/fdos5rxpzshs0b/filas-de-disco?orgId=1&refresh=1m"
+              target="_blank">
+              <i class="fas fa-hdd icon" style="display: block;"></i>
+              <span style="display: block;">Fila de Disco - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://titan.migrati.com.br:3000/login" target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">MigraTI - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://titan.migrati.com.br/index.php?request=zabbix.php%3Faction%3Ddashboard.view"
+              target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">MigraTI - Zabbix</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/bdjtnapgfzncwf/mikrotik?orgId=1" target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Mikrotik - Grafana</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/ddg133acr33lsa/oraclelinux?orgId=1&refresh=1m"
+              target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Oracle Linux - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/edi4ci8wb0wlcd/servicos?orgId=1&refresh=30s"
+              target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Serviços - Grafana</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="http://192.168.2.15:3000/d/adhjb62v3fgg0b/tablespaces?orgId=1&refresh=5m"
+              target="_blank">
+              <i class="fa fa-linux" style="font-size:40px"></i>
+              <span style="display: block;">Tablespaces - Grafana</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="http://192.168.2.15/zabbix/">
+              <i class="custom-icon">Z</i>
+              <span style="display: block;">Zabbix</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Senior</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="http://adl-srv-glass:8080/SeniorMonitorCenter/">
+              <i class="bi bi-display icon" style="display: block;"></i>
+              <span style="display: block;">Central de Monitoramento</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="http://192.168.2.26:9191/IntegradorMonitorWS/#/login">
+              <i class="bi bi-tv icon" style="display: block;"></i>
+              <span style="display: block;">Integrador GS</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="http://192.168.2.21:9191/IntegradorMonitorWS/#/login">
+              <i class="bi bi-tv icon" style="display: block;"></i>
+              <span style="display: block;">Integrador GL</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="https://cliente.senior.com.br/#/auth/login?redirectTo=%2Fdashboard%2Fhome">
+              <i class="bi bi-person-circle icon" style="display: block;"></i>
+              <span style="display: block;">Portal do Cliente</span>
+            </a>
+          </div>
+
+        </div>
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://send.senior.com.br/index.php">
+              <i class="material-icons icon">send</i>
+              <span style="display: block;">Send Senior</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="http://192.168.2.30/SDETESTE/Login.aspx?ReturnUrl=%2fSDETESTE">
+              <i class="bi bi-file-text icon" style="display: block;"></i>
+              <span style="display: block;">SDE Teste</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="http://adl-srv-glass:8080/SeniorMonitorCenter/?perspective=com.senior.monitorcenter.ui.middleware.Middleware&perspectiveLayout=Aplicativos">
+              <span class="glyphicon glyphicon-stats icon"></span>
+              <span style="display: block;">Status GlassFish ERP</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="http://adl-srv-glass:8080/SeniorMonitorCenter/?perspective=com.senior.monitorcenter.ui.connectedusersmanager.ConnectedUsersManager">
+              <i class="bi bi-people-fill icon" style="display: block;"></i>
+              <span style="display: block;">User Manager</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Linx</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a href="http://192.168.2.36:8080/linx-application-updater-web/#/dashboard" class="icon-text"
+              target="_blank">
+              <i class="bi bi-file-arrow-up icon" style="display: block;"></i>
+              <span style="display: block;">Atualizadot</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="https://fepas-cardse.softwareexpress.com.br/auth/realms/FEPAS-CARDSE/protocol/openid-connect/auth?client_id=fepas-cardse-frontend&redirect_uri=https%3A%2F%2Ffepas-cardse.softwareexpress.com.br%2F&state=cb925d41-689d-4595-93ad-d30d98f8c15a&response_mode=fragment&response_type=code&scope=openid&nonce=6b69e2e3-d7a8-44e8-bb25-23c239b746a2" class="icon-text"
+              target="_blank">
+              <i class="bi bi-file-text icon" style="display: block;"></i>
+              <span style="display: block;">Fepas Hub</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="http://192.168.2.17:7001/console/" class="icon-text"
+              target="_blank">
+              <i class="bi bi-building icon" style="display: block;"></i>
+              <span style="display: block;">Console Form's</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="http://192.168.2.17:7777/forms/frmservlet?config=vcs" class="icon-text"
+              target="_blank">
+              <i class="bi bi-building icon" style="display: block;"></i>
+              <span style="display: block;">Form VCs</span>
+            </a>
+          </div>              
+        </div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a href="https://portal-midnfe-hml.linx.com.br/" class="icon-text" target="_blank">
+              <i class="bi bi-file-text icon" style="display: block;"></i>
+              <span style="display: block;">LINX NFE</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="http://192.168.2.37:8080/portal-big-retail-v2/#/login" class="icon-text" target="_blank">
+              <i class="bi bi-building icon" style="display: block;"></i>
+              <span style="display: block;">Portal ERP</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="https://hml-tecfiscal.linx.com.br/#/login" class="icon-text" target="_blank">
+              <i class="bi bi-file-text icon" style="display: block;"></i>
+              <span style="display: block;">TecFiscal</span>
+            </a>
+          </div>
+
+          <div class="m-3 text-center">
+            <a href="http://192.168.2.36:8080/va-ux/" class="icon-text" target="_blank">
+              <i class="bi bi-receipt icon" style="display: block;"></i>
+              <span style="display: block;">VA - Venda Assistida</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Planilhas</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="text-center m-3">
+            <a class="icon-text" href="https://drive.google.com/drive/folders/1W1K0Rz01QnR98u4SBzsrUAJ-rK9fWsK1"
+              target="_blank">
+              <i class="bi bi-hdd icon" style="display: block;"></i>
+              <span style="display: block;">Drive</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="https://drive.google.com/drive/folders/1KLxBPoVUgM3uLFoHjIYSHQnFeBpNa06R"
+              target="_blank">
+              <i class="bi bi-folder-fill icon" style="display: block;"></i>
+              <span style="display: block;">Manuais</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://docs.google.com/spreadsheets/d/16NkvWiymhoTgDyusFV66-Dg4fQGPn3O3Gv9gZhbIFkA/edit?gid=243610834#gid=243610834"
+              target="_blank">
+              <i class="bi bi-table icon" style="display: block;"></i>
+              <span style="display: block;">Atendimento Suporte 2024</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://docs.google.com/spreadsheets/d/14uGGR3he3_mhWysKD6MbhtbkB2Y4-uuJ2DvXhpnEoGQ/edit?gid=727880050#gid=727880050"
+              target="_blank">
+              <i class="bi bi-table icon" style="display: block;"></i>
+              <span style="display: block;">Gasto com Tecnologia</span>
+            </a>
+          </div>
+
+
+        </div>
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://docs.google.com/spreadsheets/d/1wHZV2k2QqaoSBC2bMl3Tkgx7FhOPSXjTIH2ZB3VmxiE/edit?gid=0#gid=0"
+              target="_blank">
+              <i class="bi bi-table icon" style="display: block;"></i>
+              <span style="display: block;">IP Matriz</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://docs.google.com/spreadsheets/d/1kUauRMbUBn_8-3SV7YBJ78_cNxtYlG0GRj-iLwAU1vI/edit?gid=0#gid=0"
+              target="_blank">
+              <i class="bi bi-table icon" style="display: block;"></i>
+              <span style="display: block;">Patrimonio Tecnologico</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://docs.google.com/spreadsheets/d/1z-34c0VxwfoTRcD62fa5n7mPZ4QXHGGnqRZEy59Sn58/edit?gid=1081755984#gid=1081755984"
+              target="_blank">
+              <i class="bi bi-table icon" style="display: block;"></i>
+              <span style="display: block;">Periféricos</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://docs.google.com/spreadsheets/d/1RVEDoF3J38Cw6m7dM7mCTSwdPTdkSNKYNRZmEzy77HM/edit?gid=0#gid=0"
+              target="_blank">
+              <i class="bi bi-table icon" style="display: block;"></i>
+              <span style="display: block;">Topologia das Redes</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Comunicação</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a href="http://pabx.carlessi.net.br/index.php" class="icon-text" target="_blank">
+              <i class="bi bi-telephone icon" style="display: block;"></i>
+              <span style="display: block;">Carlessi Telefone</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="https://www.locaweb.com.br/?central_login=true&redirect_login=https%253A%252F%252Fcentraldocliente.locaweb.com.br%252F"
+              class="icon-text" target="_blank">
+              <i class="bi bi-envelope icon" style="display: block;"></i>
+              <span style="display: block;">Locaweb Contas</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="https://statusblog.locaweb.com.br/" class="icon-text" target="_blank">
+              <i class="bi bi-envelope icon" style="display: block;"></i>
+              <span style="display: block;">Locaweb Status</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="http://192.168.2.12:9090/login.jsp" class="icon-text" target="_blank">
+              <i class="bi bi-chat-dots icon" style="display: block;"></i>
+              <span style="display: block;">Openfire</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a href="https://login.teamviewer.com/LogOn" class="icon-text" target="_blank">
+              <i class="bi bi-gear icon" style="display: block;"></i>
+              <span style="display: block;">Team Viewer Contas</span>
+            </a>
+          </div>
+
+          <div class="m-3 text-center">
+            <a href="https://service.teamviewer.com/front/en-br/customer" class="icon-text" target="_blank">
+              <i class="bi bi-person-fill icon" style="display: block;"></i>
+              <span style="display: block;">Team Viewer - Portal Cliente</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a href="https://status.teamviewer.com/" class="icon-text" target="_blank">
+              <i class="bi bi-info-circle icon" style="display: block;"></i>
+              <span style="display: block;">Team Viewer Status</span>
+            </a>
+          </div>
+
+          <div class="m-3 text-center">
+            <a href="https://adelino.absolutatelecom.com.br/confast/portal/procs/login.php" class="icon-text"
+              target="_blank">
+              <i class="bi bi-telephone icon" style="display: block;"></i>
+              <span style="display: block;">Upphone - Absoluta</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Suporte</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+          <div class="text-center m-3">
+            <a href="https://doutbox.atlassian.net/servicedesk/customer/user/login?destination=portals"
+              class="icon-text" target="_blank">
+              <i class="bi bi-headset icon" style="display: block;"></i>
+              <span style="display: block;">DoutBox</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="https://gruposancon.movidesk.com/Account/Login?ReturnUrl=%2f" target="_blank">
+              <i class="bi bi-headset icon" style="display: block;"></i>
+              <span style="display: block;">Sancon - Pronnus</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text"
+              href="https://migrati.e-desk.com.br/Principal/Login.aspx?GUID=1cbb3af8-caa3-4100-85c3-23177448a3e7"
+              target="_blank">
+              <i class="bi bi-headset icon" style="display: block;"></i>
+              <span style="display: block;">Suporte MigraTi</span>
+            </a>
+          </div>
+          <div class="text-center m-3">
+            <a class="icon-text" href="https://suporte.senior.com.br/hc/pt-br/requests/organization" target="_blank">
+              <i class="bi bi-headset icon" style="display: block;"></i>
+              <span style="display: block;">Suporte Senior</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="card">
+        <div class="card-header">Outros</div>
+        <div class="card-body d-flex flex-wrap justify-content-center">
+        </div>
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://192.168.2.254/login?redir=%2F">
+              <i class="bi bi-globe2 icon" style="display: block;"></i>
+              <span style="display: block;">FortiNet</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="https://customersso1.fortinet.com/saml-idp/rkj4nu54otgnirok/login/?SAMLRequest=nZPBbhoxEIZfxfJ9d70L2RCLJaKgqEhphQjpoZfKsQfiZm1v7XGSvn0NC5RDS6WeLHn%2BmX%2Fm83h8%2B25a8go%2BaGcbWuaMErDSKW23DX1c32UjejsZB2HaquPTiM92BT8iBCQp0QbeRxoaveVOBB24FQYCR8kfpp%2FueZUz3nmHTrqWkmkI4DFZzZwN0YB%2FAP%2BqJTyu7hv6jNgFXhSt22qbb1wSytZFlUtnip1PCI6SefLWVuC%2B32OKjAFdKpcUZZ9pAU95mVZd4V%2B%2BD228GjrcWu3dS29TULKYN%2FSbKpm6uYahYlBuRqy%2BfhqUdXmjaiGHtawHSRZChIUNKCw2tGLVIGNVxsp1xfgV41WdlyP2lZLlYdgP2vYQL5F56kWBf1yvl9kKlPYgkZIvxwdJInrAz%2Fcd%2BHPul4uLI2w6%2BSdaAyiUQDEuzr1OD%2F85FV%2FMl67V8ieZtq17m3kQCA1FH4GSO%2BeNwMvt7G60yjZ7KUcvbNBgkRYnl8NmgdrvWVoRhHckM2c64XXY4TDaahPNCcm5cNamgVew%2BS9AF2WSy13tdL1Mx5vz6ojpT%2F6TQ%2FAv8%2FwOn%2F%2BmyS8%3D&RelayState=UkVMQVlTVEFURQ%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=ZdgxcoFHenIaHCybOo2W2LWbKkaeqzuC5KHgwYDp%2Ff4NC%2FiRnPSg3WDSIxL26mTi8lq0f080gv9YU1AbMtU%2F%2B702Ni3QYq4wKm034hcqrZmoJAC%2FJTodJvdiPzieB2J%2BVt71HC0B5iP9HuUIVLLbaF48jQr6DKEV34UGxRgYhGUhCdlbILza6HWg7ziZrJ7fDDP1uOWLshBjVURX8JjK5rW%2F6sEGtlxDZJ30mHy%2BX5d6yGWbJoqtcDCEEJgeqlmAzmUj9vC2LZXZAiPtlvnWLehrBFBtZcTV%2BcVqzUq%2B6eNB%2FN1RQWovICmhwVJjrzeCkO4sqQeBoLasIPSnPY4l0w%3D%3D">
+              <i class="bi bi-globe2 icon" style="display: block;"></i>
+              <span style="display: block;">FortiCloud</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://192.168.2.26:5151/common/index.jsf">
+              <i class="bi bi-building icon" style="display: block;"></i>
+              <span style="display: block;">GlassFish GS - Console ADM</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://192.168.2.21:5151/common/index.jsf">
+              <i class="bi bi-building icon" style="display: block;"></i>
+              <span style="display: block;">GlassFish GL - Console ADM</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="https://www.lojasadelino.com.br/area-restrita/login">
+              <i class="bi bi-heart icon" style="display: block;"></i>
+              <span style="display: block;">Lojas Adelino - Área Restrita</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="https://help.mikrotik.com/docs/pages/viewpage.action?pageId=28606504">
+              <i class="bi bi-info-circle icon" style="display: block;"></i>
+              <span style="display: block;">Help Mikrotik</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://66280f47a5cc6.mspclouds.com/login">
+              <i class="bi bi-cloud icon"  style="display: block;"></i>            
+              <span style="display: block;">Migra Cloud Backup</span>
+            </a>
+          </div> 
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://www.lojasadelino.com.br/area-restrita">
+              <i class="bi bi-bank icon" style="display: block;"></i>
+              <span style="display: block;">Paguelino - Área Restrita</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://app.powerbi.com/home?experience=power-bi">
+              <i class="fas fa-chart-line icon-fas"></i>
+              <span style="display: block; margin-top: 10px;">Power BI - Home</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-body card-final d-flex flex-wrap justify-content-center">
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="https://oauth.softwareexpress.com.br/auth/realms/sitefexpress/protocol/openid-connect/auth?response_type=code&client_id=sitefweb&redirect_uri=https%3A%2F%2Fsitefexpress2.softwareexpress.com.br%2Fsitefweb%2Fsso%2Flogin&state=4d3354bf-edc7-4e42-912f-e8234b58f673&login=true&scope=openid">
+              <i class="bi bi-file-text icon" style="display: block;"></i>
+              <span style="display: block;">Sitef Express</span>
+            </a>
+          </div>    
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="http://simple.lojasadelino.com.br:55556/#/compras">
+              <i class="bi bi-person-check icon" style="display: block;"></i>
+              <span style="display: block;">Simple ADM</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank"
+              href="https://www.nfe.fazenda.gov.br/portal/disponibilidade.aspx?versao=0.00&tipoConteudo=P2c98tUpxrI=&AspxAutoDetectCookieSupport=1">
+              <i class="bi bi-file-text icon" style="display: block;"></i>
+              <span style="display: block;">Status Sefaz</span>
+            </a>
+          </div>
+          <div class="m-3 text-center">
+            <a class="icon-text" target="_blank" href="https://trello.com/b/27eQpTTX/varejo-linx-adelino">
+              <i class="fab fa-trello icon" style="display: block;"></i>
+              <span style="display: block;">Trello Linx</span>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-right">
+        <p>&copy; 2024 Arthur Malgarisi. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
